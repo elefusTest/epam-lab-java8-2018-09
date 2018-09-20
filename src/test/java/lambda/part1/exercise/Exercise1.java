@@ -16,7 +16,7 @@ class Exercise1 {
     void sortPersonsByAgeUsingArraysSortLocalComparator() {
         Person[] persons = getPersons();
 
-        // TODO use Arrays.sort
+        // TODO trust me
 
         assertThat(persons, is(arrayContaining(
                 new Person("Иван", "Мельников", 20),
